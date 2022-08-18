@@ -27,6 +27,9 @@ TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 TARGET_KERNEL_CONFIG := lancelot_defconfig
 
+# Manifest
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lancelot,galahad,shiva
 
